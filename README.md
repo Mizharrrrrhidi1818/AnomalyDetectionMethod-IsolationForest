@@ -8,7 +8,7 @@
 
 ## 📋 Project Overview
 
-This project applies the **Isolation Forest algorithm** to the UCI Credit Card Default dataset to identify financially anomalous client profiles. By analyzing repayment behavior, billing patterns, and credit utilization, the model flags clients with elevated default risk—**without using labeled data during training**.
+This project applies the **Isolation Forest algorithm** to the UCI Credit Card Default dataset to identify financially anomalous client profiles. By analyzing repayment behavior, billing patterns, and credit utilization, the model flags clients with elevated default risk **without using labeled data during training**.
 
 ### ✨ Key Features
 - **Unsupervised Learning**: Detects novel risk patterns without historical labels
