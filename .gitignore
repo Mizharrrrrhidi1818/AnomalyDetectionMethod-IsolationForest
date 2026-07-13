@@ -1,23 +1,38 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+*.swp
+*.swo
+
+# Data (add manually, do not commit if restricted)
+data/*.xls
+data/*.xlsx
+data/*.csv
+!data/.gitkeep
+
+# Reports (optional: commit final PDF, ignore intermediate)
+reports/figures/*.png
+reports/figures/*.svg
+!reports/final_report.pdf
+
+# Environment
+venv/
+env/
+.env
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter server files
+.jupyter/
